@@ -15,5 +15,4 @@
                 @include('partials.widgets')
             </div>
         </div>
-
 @endsection

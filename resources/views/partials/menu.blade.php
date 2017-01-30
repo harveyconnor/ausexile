@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <span class="bar hide"></span>
-        <a href="{{ route('home') }}" class="logo"><img src="" alt=""> <strong>AusExile</strong></a>
+        <a href="{{ route('home') }}" class="logo"><strong>AusExile</strong></a>
         <nav>
             <div class="nav-control">
                 <ul>

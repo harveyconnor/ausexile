@@ -1,6 +1,6 @@
 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
     <div class="widget widget-list">
-        <div class="panel panel-primary">
+        <div class="panel panel-default">
             <div class="panel-heading bold">Server Information</div>
             <div class="panel-body">
                 <ul>
