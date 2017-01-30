@@ -27,7 +27,7 @@
                             </div>
                             <div class="form-group input-icon-left {{ $errors->has('last_name') ? ' has-error' : '' }}">
                                 <i class="fa fa-user"></i>
-                                <input type="text" class="form-control" name="first_name" placeholder="Last Name" value="{{ old('last_name') }}" required autofocus>
+                                <input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ old('last_name') }}" required autofocus>
                                 @if ($errors->has('last_name'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('last_name') }}</strong>
