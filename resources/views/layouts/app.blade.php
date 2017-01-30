@@ -13,6 +13,7 @@
 
 @include('partials.footer')
 @include('partials.scripts')
+    @yield('widget_scripts')
     @yield('above_scripts')
 </body>
 </html>

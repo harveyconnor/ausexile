@@ -41,8 +41,19 @@
             </div>
         </div>
     </div>
+    <div class="widget">
+        <div class="panel panel-default">
+            <div class="panel-heading bold">Buy the game: Conan Exiles</div>
+            <div class="panel-body">
+                <p>
+                    <a href="https://www.conanexiles.com/" target="_blank"><img src="{{ asset('/assets/img/conan_exiles_logo.png') }}" height="auto" width="280px"></a>
+                    Don't have the game, <a href="https://www.conanexiles.com/" target="_blank">click here</a> to visit the website!
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
-@section('above_scripts')
+@section('widget_scripts')
     <script src="{{ asset('/js/clipboard.min.js') }}"></script>
     <script>
         $('#ip-copy').tooltip({
