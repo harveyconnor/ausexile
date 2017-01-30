@@ -11,7 +11,7 @@
                         </div>
                         <div class="panel-body">
 
-                            <a class="btn btn-block btn-social btn-github"><i class="fa fa-steam"></i> Connect with Steam</a>
+                            <a class="btn btn-block btn-social btn-github" disabled=""><i class="fa fa-steam"></i> Connect with Steam</a>
                             <div class="separator"><span>or</span></div>
 
                             <form role="form" method="POST" action="{{ url('/login') }}">
