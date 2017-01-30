@@ -7,12 +7,20 @@
                     <li>
                         <a href="steam://connect/119.252.189.38:17001" class="thumb"><i class="fa fa-2x fa-steam"></i></a>
                         <div class="widget-list-meta">
-                            <h4 class="widget-list-title"><a class="btn btn-info" href="steam://connect/119.252.189.38:17001"><strong>Click to join</strong></a></h4>
                             <p>
-                            <div class="form-group input-icon-left">
-                                <i class="fa fa-globe"></i>
-                                <input class="form-control" type="text" value="119.252.189.38" readonly>
+                                <a href="steam://connect/119.252.189.38:17001" class="btn btn-block btn-social btn-github"><i class="fa fa-steam fa-2x"></i> Click here to join</a>
+                            </p>
+                            <br>
+                            <p>
+                            <div class="input-group">
+                                <input id="input-ip" type="text" class="form-control" value="join.ausexile.com:17001">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-info btn-lg btn-icon-right" id="ip-copy" data-clipboard-target="#input-ip"><i class="fa fa-files-o"></i></button>
+                                </div>
                             </div>
+                            <br>
+                            If The above does not work, locate us on the server list:
+                            <br><strong>[AU/NZ] AusExile - PVP (2XG, XP) Fresh Wipe</strong>
                             </p>
                         </div>
                     </li>
@@ -20,11 +28,23 @@
             </div>
         </div>
     </div>
-
     <div class="widget">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/C8Wr3C2wpSo?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+        <div class="panel panel-default">
+            <div class="panel-heading bold">Discord</div>
+            <div class="panel-body">
+                <p>
+                    <a href="https://discord.gg/GnVCR9y" target="_blank"><img src="{{ asset('/assets/img/discord_logo.png') }}" height="auto" width="280px"></a>
+                </p>
+                <p>
+                    Click the link to join: <a href="https://discord.gg/GnVCR9y" target="_blank">discord.gg/GnVCR9y</a>
+                </p>
+            </div>
         </div>
     </div>
-
 </div>
+@section('above_scripts')
+    <script src="{{ asset('/js/clipboard.min.js') }}"></script>
+    <script>
+        new Clipboard('#ip-copy');
+    </script>
+@endsection

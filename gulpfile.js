@@ -33,4 +33,5 @@ elixir(function(mix) {
             'js/app.js',
         ])
         .copy('node_modules/font-awesome/fonts', 'public/fonts');
+    mix.copy('node_modules/clipboard/dist', 'public/js');
 });
