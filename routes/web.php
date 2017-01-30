@@ -13,9 +13,9 @@
 
 Auth::routes();
 //Override Register link to prevent users from creating accounts
-//Route::get('/register', function (){
-//    return redirect('/');
-//});
+Route::get('/register', function (){
+    return redirect('/');
+});
 
 Route::group(["middleware" => "auth"], function () {
     //Logged-in Views
