@@ -24,7 +24,6 @@
         </nav>
             <ul class="navbar-nav nav-right">
                 @if (Auth::guest())
-                    <li><a href="{{ url('/login') }}">Login</a></li>
                 @else
                     <li class="dropdown">
                         <a href="{{ url('/logout') }}"

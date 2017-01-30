@@ -20,7 +20,7 @@
                             </div>
                             <br>
                             If The above does not work, locate us on the server list:
-                            <br><strong>[AU/NZ] AusExile - PVP (2XG, XP) Fresh Wipe</strong>
+                            <br><strong>[AU/NZ] AusExile PVP - (2xG,XP) Fresh Wipe</strong>
                             </p>
                         </div>
                     </li>
